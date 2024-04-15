@@ -24,7 +24,7 @@ function likeHandler(){
           modal.classList.remove("hidden")
           setTimeout(()=>{
             modal.classList.add('hidden')
-          }, 2000)
+          }, 3000)
         })
       }else{
         mimicServerCall()
